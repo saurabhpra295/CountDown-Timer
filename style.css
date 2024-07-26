@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3e8e95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.timer {
+  position: absolute;
+  top: 10%;
+  /* color: rgb(213, 76, 76); */
+}
+
+.timer > h1 {
+  color: rgb(98, 228, 126);
+}
+
+.countdown {
+  text-align: center;
+  /* color: #a31414; */
+}
+
+h1 {
+  font-size: 5rem;
+  color: #e7e3ea;
+}
